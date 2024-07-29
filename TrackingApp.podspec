@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.name         = "TrackingApp"
     spec.ios.deployment_target = '13.0'
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.2"
   spec.summary      = "A short description of TrackingApp."
   
   spec.description  = "this is desc"
@@ -28,11 +28,11 @@ Pod::Spec.new do |spec|
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source_files  = "Classes", "Classes/**/*.{swift}"
+  spec.source_files  = "TrackingApp/**/*.{swift}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.resources = "TrackingApp/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

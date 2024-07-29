@@ -29,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		26E8395294CCFB676FE33C1B /* libPods-TrackingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAF61F2A2534CDC912B9877 /* Pods-TrackingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp.release.xcconfig"; path = "Target Support Files/Pods-TrackingApp/Pods-TrackingApp.release.xcconfig"; sourceTree = "<group>"; };
 		5CC325432C57F17D0005F5AD /* TrackingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrackingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC325462C57F17D0005F5AD /* TrackingApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackingApp.h; sourceTree = "<group>"; };
 		5CC325472C57F17D0005F5AD /* TrackingApp.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TrackingApp.docc; sourceTree = "<group>"; };
@@ -36,11 +37,10 @@
 		5CC325522C57F17D0005F5AD /* TrackingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingAppTests.swift; sourceTree = "<group>"; };
 		5CC3255D2C57F1FC0005F5AD /* home */ = {isa = PBXFileReference; lastKnownFileType = folder; path = home; sourceTree = "<group>"; };
 		5CC3255E2C57F1FC0005F5AD /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
-		77CA80073D571A168C93EE14 /* Pods-TrackingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp.debug.xcconfig"; path = "Target Support Files/Pods-TrackingApp/Pods-TrackingApp.debug.xcconfig"; sourceTree = "<group>"; };
-		9CA5C561AA0E2050E6248B88 /* Pods-TrackingApp-TrackingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp-TrackingAppTests.release.xcconfig"; path = "Target Support Files/Pods-TrackingApp-TrackingAppTests/Pods-TrackingApp-TrackingAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		AFDC6B9E2D1C63D968D4F0FA /* Pods-TrackingApp-TrackingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp-TrackingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TrackingApp-TrackingAppTests/Pods-TrackingApp-TrackingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		715FD6795B386570F1B707E5 /* Pods-TrackingApp-TrackingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp-TrackingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TrackingApp-TrackingAppTests/Pods-TrackingApp-TrackingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C94807F901FF753F1ABAD23F /* Pods-TrackingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp.debug.xcconfig"; path = "Target Support Files/Pods-TrackingApp/Pods-TrackingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D0BE4955C27A2E9F160D71A5 /* libPods-TrackingApp-TrackingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackingApp-TrackingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8594F9011343CCAE6FE7D93 /* Pods-TrackingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp.release.xcconfig"; path = "Target Support Files/Pods-TrackingApp/Pods-TrackingApp.release.xcconfig"; sourceTree = "<group>"; };
+		F96D01F981C2190A1F4238C4 /* Pods-TrackingApp-TrackingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp-TrackingAppTests.release.xcconfig"; path = "Target Support Files/Pods-TrackingApp-TrackingAppTests/Pods-TrackingApp-TrackingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,25 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14A51EF36F4B7A067F4C5828 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				77CA80073D571A168C93EE14 /* Pods-TrackingApp.debug.xcconfig */,
-				E8594F9011343CCAE6FE7D93 /* Pods-TrackingApp.release.xcconfig */,
-				AFDC6B9E2D1C63D968D4F0FA /* Pods-TrackingApp-TrackingAppTests.debug.xcconfig */,
-				9CA5C561AA0E2050E6248B88 /* Pods-TrackingApp-TrackingAppTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		5CC325392C57F17D0005F5AD = {
 			isa = PBXGroup;
 			children = (
 				5CC325452C57F17D0005F5AD /* TrackingApp */,
 				5CC325512C57F17D0005F5AD /* TrackingAppTests */,
 				5CC325442C57F17D0005F5AD /* Products */,
-				14A51EF36F4B7A067F4C5828 /* Pods */,
 				BD4D56A3887EE727BAAE8269 /* Frameworks */,
+				609F9A53745A9521D20242E9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +101,18 @@
 				5CC325522C57F17D0005F5AD /* TrackingAppTests.swift */,
 			);
 			path = TrackingAppTests;
+			sourceTree = "<group>";
+		};
+		609F9A53745A9521D20242E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C94807F901FF753F1ABAD23F /* Pods-TrackingApp.debug.xcconfig */,
+				2EAF61F2A2534CDC912B9877 /* Pods-TrackingApp.release.xcconfig */,
+				715FD6795B386570F1B707E5 /* Pods-TrackingApp-TrackingAppTests.debug.xcconfig */,
+				F96D01F981C2190A1F4238C4 /* Pods-TrackingApp-TrackingAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		BD4D56A3887EE727BAAE8269 /* Frameworks */ = {
@@ -428,7 +429,7 @@
 		};
 		5CC325582C57F17D0005F5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77CA80073D571A168C93EE14 /* Pods-TrackingApp.debug.xcconfig */;
+			baseConfigurationReference = C94807F901FF753F1ABAD23F /* Pods-TrackingApp.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -461,7 +462,7 @@
 		};
 		5CC325592C57F17D0005F5AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8594F9011343CCAE6FE7D93 /* Pods-TrackingApp.release.xcconfig */;
+			baseConfigurationReference = 2EAF61F2A2534CDC912B9877 /* Pods-TrackingApp.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -494,7 +495,7 @@
 		};
 		5CC3255B2C57F17D0005F5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFDC6B9E2D1C63D968D4F0FA /* Pods-TrackingApp-TrackingAppTests.debug.xcconfig */;
+			baseConfigurationReference = 715FD6795B386570F1B707E5 /* Pods-TrackingApp-TrackingAppTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -511,7 +512,7 @@
 		};
 		5CC3255C2C57F17D0005F5AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CA5C561AA0E2050E6248B88 /* Pods-TrackingApp-TrackingAppTests.release.xcconfig */;
+			baseConfigurationReference = F96D01F981C2190A1F4238C4 /* Pods-TrackingApp-TrackingAppTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
