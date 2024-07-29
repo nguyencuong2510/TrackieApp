@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.resource_bundles = "TrackingApp/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.resource_bundles = {'TrackingApp' => ['TrackingApp/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'] }
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
