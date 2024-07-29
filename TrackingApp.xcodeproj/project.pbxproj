@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1F90E4BF924C3910565C6123 /* libPods-TrackingApp-TrackingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BE4955C27A2E9F160D71A5 /* libPods-TrackingApp-TrackingAppTests.a */; };
+		5CC251862C58132100B133BF /* home in Resources */ = {isa = PBXBuildFile; fileRef = 5CC251842C58132100B133BF /* home */; };
+		5CC251892C5813CF00B133BF /* TrackingAssets.xcassets in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CC251872C58135400B133BF /* TrackingAssets.xcassets */; };
 		5CC325482C57F17D0005F5AD /* TrackingApp.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5CC325472C57F17D0005F5AD /* TrackingApp.docc */; };
 		5CC3254E2C57F17D0005F5AD /* TrackingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC325432C57F17D0005F5AD /* TrackingApp.framework */; };
 		5CC325542C57F17D0005F5AD /* TrackingApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC325462C57F17D0005F5AD /* TrackingApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CC3255F2C57F1FC0005F5AD /* home in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3255D2C57F1FC0005F5AD /* home */; };
-		5CC325602C57F1FC0005F5AD /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3255E2C57F1FC0005F5AD /* resource */; };
 		A65BF87D0D60D495C90CE4FE /* libPods-TrackingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E8395294CCFB676FE33C1B /* libPods-TrackingApp.a */; };
 /* End PBXBuildFile section */
 
@@ -26,15 +26,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5CC251882C5813C300B133BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				5CC251892C5813CF00B133BF /* TrackingAssets.xcassets in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		26E8395294CCFB676FE33C1B /* libPods-TrackingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAF61F2A2534CDC912B9877 /* Pods-TrackingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp.release.xcconfig"; path = "Target Support Files/Pods-TrackingApp/Pods-TrackingApp.release.xcconfig"; sourceTree = "<group>"; };
+		5CC251842C58132100B133BF /* home */ = {isa = PBXFileReference; lastKnownFileType = folder; path = home; sourceTree = "<group>"; };
+		5CC251872C58135400B133BF /* TrackingAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TrackingAssets.xcassets; sourceTree = "<group>"; };
 		5CC325432C57F17D0005F5AD /* TrackingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrackingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC325462C57F17D0005F5AD /* TrackingApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackingApp.h; sourceTree = "<group>"; };
 		5CC325472C57F17D0005F5AD /* TrackingApp.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TrackingApp.docc; sourceTree = "<group>"; };
 		5CC3254D2C57F17D0005F5AD /* TrackingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CC3255D2C57F1FC0005F5AD /* home */ = {isa = PBXFileReference; lastKnownFileType = folder; path = home; sourceTree = "<group>"; };
-		5CC3255E2C57F1FC0005F5AD /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
 		715FD6795B386570F1B707E5 /* Pods-TrackingApp-TrackingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp-TrackingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TrackingApp-TrackingAppTests/Pods-TrackingApp-TrackingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C94807F901FF753F1ABAD23F /* Pods-TrackingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp.debug.xcconfig"; path = "Target Support Files/Pods-TrackingApp/Pods-TrackingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D0BE4955C27A2E9F160D71A5 /* libPods-TrackingApp-TrackingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackingApp-TrackingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,9 +97,9 @@
 		5CC325452C57F17D0005F5AD /* TrackingApp */ = {
 			isa = PBXGroup;
 			children = (
-				5CC3255D2C57F1FC0005F5AD /* home */,
-				5CC3255E2C57F1FC0005F5AD /* resource */,
+				5CC251842C58132100B133BF /* home */,
 				5CC325462C57F17D0005F5AD /* TrackingApp.h */,
+				5CC251872C58135400B133BF /* TrackingAssets.xcassets */,
 				5CC325472C57F17D0005F5AD /* TrackingApp.docc */,
 			);
 			path = TrackingApp;
@@ -135,6 +148,7 @@
 				5CC3253F2C57F17D0005F5AD /* Sources */,
 				5CC325402C57F17D0005F5AD /* Frameworks */,
 				5CC325412C57F17D0005F5AD /* Resources */,
+				5CC251882C5813C300B133BF /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -206,8 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CC325602C57F1FC0005F5AD /* resource in Resources */,
-				5CC3255F2C57F1FC0005F5AD /* home in Resources */,
+				5CC251862C58132100B133BF /* home in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
