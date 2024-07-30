@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.name         = "TrackingApp"
   spec.ios.deployment_target = '13.0'
-  spec.version      = "0.1.5"
+  spec.version      = "0.1.7"
   spec.summary      = "A short description of TrackingApp."
   
   spec.description  = "this is desc"
@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.resource_bundles = {'TrackingApp' => ['TrackingApp/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'] }
+  spec.resource_bundle = {'TrackingApp' => ['TrackingApp/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'] }
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
